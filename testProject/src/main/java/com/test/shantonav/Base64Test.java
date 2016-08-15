@@ -4,7 +4,7 @@ import org.apache.commons.codec.binary.Base64;
 
 public class Base64Test {
 	public String getBase64EncodedString(byte[] binaryData){
-		System.out.println("Is Base64 ? "+Base64.isBase64(binaryData));
+		System.out.println("Is String Base64 ? "+Base64.isBase64(binaryData));
 		return Base64.encodeBase64String(binaryData);
 	}
 }
